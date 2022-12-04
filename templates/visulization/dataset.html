@@ -1,0 +1,39 @@
+<html>
+<head>
+    <title> </title>
+</head>
+<body>
+    <h1><center>  Dataset</center></h1>
+<br>
+<br>
+     <h2> Overview of Dataset</h2>
+   
+    <p><b>Problem Statement:- </b> </p>
+    <p>Banking/Financial Institutes plays a significant role in providing financial service.</p>
+    <p>To maintain the integrity,bank/institute must be careful when investing in customers to avoid financial loss.
+    Before giving credit to borroers,the bank must come to about the potential of customers.</p>
+    <p>The term credit scoring,determines the relation between defaulters and loan characteristics.</p>
+</p>
+<br>
+<br>
+    <p><b>Data Preprocessing:- </b> </p>
+    <p> Data set  is divided in 80:20 ratio for train and test respectively.</p>
+    <p> ID column was dropped as its unnecessary for our modeling.</p>
+    <p> The attribute name ‘PAY_0’was converted to ‘PAY_1’ and  'default.payment.next.month’ was covertes to ‘def_pay’ for naming convenience. </p>
+    <p> Pay_0:No consumption of credit card=-2,Pay duly(paid on time)=-1,payment delay for one mouth=1, payment delay for two months=2,payment delay for nine months and above=-9\
+    No Null values in dataset  </p>
+
+<br>
+<br>
+   
+    <img src="Images\imbalance data.png" >
+    <p> <b>In above graph:-</b>
+    <br>
+    0 - means Non Defaulters
+    <br>
+    1 - means Defauters
+    <p><b> Conclusion:- </b>
+    <br>
+    From the above proportion we can see that there are around 22 % defaulters for credit card payments out of sample size of 30,000 credit card holders .
+</body>
+</html>
